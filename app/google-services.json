@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172400826856",
+    "project_id": "decagon-android-007-blog",
+    "storage_bucket": "decagon-android-007-blog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172400826856:android:f1397bbb9be8245fb1ac5d",
+        "android_client_info": {
+          "package_name": "com.decagon.android.sq007"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172400826856-g9qlffjdqln2tltbhc424k983erjmsrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiVCl6F0CnCJEg7xiejKqDxVobzvFZId0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172400826856-g9qlffjdqln2tltbhc424k983erjmsrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

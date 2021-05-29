@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Decagon Android 007</string>
+    <string name="lorem">Content, Lorem Ipsum dominus tutus tos, est in et sera, dominus tutus tos, est in et sera, dominus tutus tos, est in et sera, dominus tutus tos, est in et sera</string>
+    <string name="add_post_action_button">poas_action_button</string>
+</resources>

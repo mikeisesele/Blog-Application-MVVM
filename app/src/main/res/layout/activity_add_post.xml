@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".view.ui.AddPostActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/add_post_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add Post"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/post_title_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/add_post_heading">
+
+        <com.google.android.material.textfield.TextInputEditText            android:id="@+id/post_title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Post Title"
+            android:layout_margin="20dp"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColorHint="@color/black"
+            android:textSize="12dp" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/post_body_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/post_title_material">
+
+        <com.google.android.material.textfield.TextInputEditText            android:id="@+id/post_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="30"
+            android:hint="Post Body"
+            android:inputType="text"
+            android:singleLine="false"
+            android:textColorHint="@color/black"
+            android:textSize="12dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="268dp"
+        android:text="Send Post"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_id_material" />
+</androidx.constraintlayout.widget.ConstraintLayout>
